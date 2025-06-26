@@ -2,6 +2,13 @@ body {
 background-color: rgb(246, 35, 165);
 }
 footer {
+    bottom:0;
+position:fixed;
+width:100%;
 background-color: rgb(35, 222, 160);
 color: white;
+}
+footer p{
+    text-align: center;
+    font-size: 0.6rem;
 }
