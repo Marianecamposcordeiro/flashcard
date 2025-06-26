@@ -1,14 +1,18 @@
 body {
 background-color: rgb(246, 35, 165);
+font-family: Bai Jamjuree;
 }
 footer {
+    background-color: rgb(35, 222, 160);
+color: rgb(167, 240, 234);
     bottom:0;
 position:fixed;
 width:100%;
-background-color: rgb(35, 222, 160);
-color: white;
+height:2rem;
+
 }
 footer p{
     text-align: center;
     font-size: 0.6rem;
+    margin-top: 0,5rem;
 }
