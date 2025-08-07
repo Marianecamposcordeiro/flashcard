@@ -55,16 +55,11 @@ backface-visibility: hidden;
     color: var(--card-back-color);
     font-weight: 700;
 }
-footer {
-    background-color: rgba(0, 10, 7, 0.062);
-color: rgba(236, 244, 242, 0.025);
-    bottom:0;
-position:fixed;
-width:100%;
-height:2rem;
 .cartao.active .cartao__conteudo {
     transform: rotateY(180deg);
 }
+
+.cartao__conteudo__pergunta,
 .cartao__conteudo__resposta {
     backface-visibility: hidden;
     position: absolute;
@@ -72,15 +67,25 @@ height:2rem;
     width: 100%;
     box-sizing: border-box;
 }
-footer p{
-    text-align: center;
-    font-size: 0.6rem;
-    margin-top: 0,5rem;
+
+.cartao__conteudo__resposta {
+    transform: rotateY(180deg);
+     background-color: rdba(0, 244, 191, 0.2);
+     border: 4px solid var(--card-back-color);
 }
+
+footer {
+    background-color: rgba(0, 10, 7, 0.062);
+color: rgba(236, 244, 242, 0.025);
+    bottom:0;
+position:fixed;
+width:100%;
+height:2rem;
+
 @media (max-width: 560px) {
 
     body {
-        background: url('assets/bg-mobile.webp');
+        background: url('bg-mobile.webp');
     }
     .cartao {
         flex: 1 0 calc(100% - 1rem);
