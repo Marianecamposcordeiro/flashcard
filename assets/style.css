@@ -1,10 +1,9 @@
-: :root { 
+ :root { 
     --text-color: #DBE4EF;
     --card-front-color: #144480;
     --card-back-color: #00F4BF;
-
 }
-body {
+body { 
 background:url('bg-desktop.webp');
 font-family: Bai Jamjuree;
 }
@@ -97,4 +96,5 @@ height:2rem;
 
 .cartao__conteudo p {
     font-size: 3.8vw;
+}
 }
