@@ -74,8 +74,8 @@ backface-visibility: hidden;
 }
 
 footer {
-    background-color: rgba(0, 10, 7, 0.062);
-color: rgba(236, 244, 242, 0.025);
+    background-color: rgba(0, 10, 7, 0.96);
+color: rgba(236, 244, 242, 0.441);
     bottom:0;
 position:fixed;
 width:100%;
