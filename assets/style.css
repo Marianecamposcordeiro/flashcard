@@ -4,7 +4,7 @@
     --card-back-color: #00F4BF;
 }
 body { 
-background:url('bg-desktop.webp');
+background:url('emma-swoboda-DXEhDakyt8E-unsplash.jpg');
 font-family: Bai Jamjuree;
 }
 #container {
@@ -84,7 +84,7 @@ height:2rem;
 @media (max-width: 560px) {
 
     body {
-        background: url('bg-mobile.webp');
+        background: url('marek-pavlik-9cxdGGamNnA-unsplash.jpg');
     }
     .cartao {
         flex: 1 0 calc(100% - 1rem);
